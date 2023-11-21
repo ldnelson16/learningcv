@@ -5,7 +5,7 @@ prefix = "luke"
 
 for i in range(1, 101):
     old_name = f"Untitled-{i:03d}.jpg"
-    new_name = f"{prefix}{i-101}.jpg"
+    new_name = f"{prefix}{i-1}.jpg"
     old_path = os.path.join(folder_path, old_name)
     new_path = os.path.join(folder_path, new_name)
     
@@ -21,7 +21,7 @@ prefix="parker"
 
 for i in range(101, 201):
     old_name = f"Untitled-{i:03d}.jpg"
-    new_name = f"{prefix}{i-101}.jpg"
+    new_name = f"{prefix}{i-1}.jpg"
     old_path = os.path.join(folder_path, old_name)
     new_path = os.path.join(folder_path, new_name)
     
